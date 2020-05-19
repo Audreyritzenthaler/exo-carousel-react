@@ -1,4 +1,4 @@
-#This project is an exercise from frontend Mentor, just for fun in my holiday ! :) 
+# This project is an exercise from frontend Mentor, just for fun in my holiday ! :) 
 
 ## Available Scripts
 
