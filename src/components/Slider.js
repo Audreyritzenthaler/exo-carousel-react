@@ -50,6 +50,7 @@ class Slider extends Component {
             goToPrevSlide={() => this.goToPrevSlide()}
           />
         <div className='slider-text'>
+        <h1>Here we are my first carousel !</h1>
           <Slide
             activeIndex={this.state.activeIndex}
           />

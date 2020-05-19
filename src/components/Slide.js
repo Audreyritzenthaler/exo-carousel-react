@@ -11,7 +11,6 @@ class Slide extends Component {
     render() {
       return(
         <section>
-            <h1>Here we are my first carousel !</h1>
         {
           this.state.landing.map((s, index) =>
             <div className={
@@ -23,4 +22,6 @@ class Slide extends Component {
           </section>
       )
     }
-  }export default Slide;
+  }
+  
+  export default Slide;

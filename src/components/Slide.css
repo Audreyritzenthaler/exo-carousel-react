@@ -8,13 +8,12 @@
 
   .arrow {
       width: 100px;
-      margin-top: 350px;
   }
 
   .slider-items {
       display: flex;
       flex-flow: row nowrap;
-      vertical-align: middle;
+      align-items: center;
   }
 
   .imgCarousel {
