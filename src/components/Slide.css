@@ -1,0 +1,22 @@
+.inactive {
+    display: none;
+  }
+  
+.active {
+    display: block;
+  }
+
+  .arrow {
+      width: 100px;
+      margin-top: 350px;
+  }
+
+  .slider-items {
+      display: flex;
+      flex-flow: row nowrap;
+      vertical-align: middle;
+  }
+
+  .imgCarousel {
+      width: 50%;
+  }
