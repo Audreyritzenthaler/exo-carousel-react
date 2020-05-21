@@ -22,18 +22,18 @@ class Slide extends Component {
                   <img className="imgCarousel" src={s.image} alt={s.alt}></img>
                 </div>
                 <div className="arrows">
-          <LeftArrow
-              goToPrevSlide={() => this.props.goToPrevSlide()}
-            />
-            <RightArrow
-              goToNextSlide={() => this.props.goToNextSlide()}
-            />
-        </div>
+                  <LeftArrow
+                      goToPrevSlide={() => this.props.goToPrevSlide()}
+                    />
+                    <RightArrow
+                      goToNextSlide={() => this.props.goToNextSlide()}
+                    />
+                </div>
                 <div>
                   <p className="description">{s.description}</p>
                 </div>
                 <div className="nameAndJob">
-                  <p>{s.name}</p>
+                  <b>{s.name}</b>
                   <p className="job">{s.job}</p>
                 </div>
             </div>

@@ -7,7 +7,7 @@
   }
 
   .description {
-      margin: 2em auto;
+      margin: 7.5em auto 0.1em auto;
       text-align: center;
       line-height: 30px;
       width: 85%;
@@ -18,16 +18,16 @@
   }
 
   .arrow {
-      width: 15px;
+      width: 11px;
   }
 
   .left {
-    width: 14px;
-    padding-right: 20px;
+    width: 10px;
+    padding-right: 15px;
 }
 
 .right {
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 
@@ -38,17 +38,36 @@
   }
 
   .imgCarousel {
-    width: 80%;
+    width: 70%;
     box-shadow: 3px 3px 40px rgb(88, 88, 88);
     border-radius: 6px;
     margin: 4em 0 ;
   }
 
   .nameAndJob {
-      margin-top: 2.5em;
+      margin-top: 2em;
       line-height: 5px;
+      padding: 0.5em;
+      padding-bottom: 5em;
+      background-image: url(./imageCourousel/pattern-curve.svg);
+      background-repeat: no-repeat;
+      background-position: bottom left;
+      background-size: 80%;
   }
 
   .job {
       color: rgb(196, 196, 196);
   }
+
+  .arrows {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    border-radius: 50px;
+    width: 80px;
+    margin: -5em auto;
+    z-index: 10;
+    padding: 0.35em 0.2em 0.2em 0.30em;
+}

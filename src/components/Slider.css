@@ -1,13 +1,3 @@
-.arrows {
-    display: flex;
-    flex-flow: row nowrap;
-    background-color: rgb(255, 255, 255);
-    justify-content: center;
-    border-radius: 50px;
-    width: 20px;
-    margin: auto;
-}
-
 .bg {
     background-image: url(./imageCourousel/pattern-bg.svg);
     background-repeat: no-repeat;
