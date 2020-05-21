@@ -6,9 +6,30 @@
     display: block;
   }
 
-  .arrow {
-      width: 100px;
+  .description {
+      margin: 2em auto;
+      text-align: center;
+      line-height: 30px;
+      width: 85%;
+      background-image: url(./imageCourousel/pattern-quotes.svg);
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: 25%;
   }
+
+  .arrow {
+      width: 15px;
+  }
+
+  .left {
+    width: 14px;
+    padding-right: 20px;
+}
+
+.right {
+    padding-left: 20px;
+}
+
 
   .slider-items {
       display: flex;
@@ -17,5 +38,17 @@
   }
 
   .imgCarousel {
-      width: 50%;
+    width: 80%;
+    box-shadow: 3px 3px 40px rgb(88, 88, 88);
+    border-radius: 6px;
+    margin: 4em 0 ;
+  }
+
+  .nameAndJob {
+      margin-top: 2.5em;
+      line-height: 5px;
+  }
+
+  .job {
+      color: rgb(196, 196, 196);
   }

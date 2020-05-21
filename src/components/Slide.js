@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 import DataCarousel from "./DataCarousel"
+import LeftArrow from "./LeftArrow"
+import RightArrow from "./RightArrow"
 import './Slide.css'
 
 class Slide extends Component {
@@ -16,7 +18,24 @@ class Slide extends Component {
             <div className={
               index === this.props.activeIndex ? 'active' : 'inactive'}
               key={index}>
-                <img className="imgCarousel" src={s.image} alt={s.alt}></img>
+                <div className="bg">
+                  <img className="imgCarousel" src={s.image} alt={s.alt}></img>
+                </div>
+                <div className="arrows">
+          <LeftArrow
+              goToPrevSlide={() => this.props.goToPrevSlide()}
+            />
+            <RightArrow
+              goToNextSlide={() => this.props.goToNextSlide()}
+            />
+        </div>
+                <div>
+                  <p className="description">{s.description}</p>
+                </div>
+                <div className="nameAndJob">
+                  <p>{s.name}</p>
+                  <p className="job">{s.job}</p>
+                </div>
             </div>
           ) }
           </section>

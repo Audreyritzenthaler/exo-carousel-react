@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import right from "./imageCourousel/icon-next.svg"
 
 
 class LeftArrow extends Component {
     render() {
       return(
         <div onClick={this.props.goToNextSlide}>
-          <img src="https://cdn4.iconfinder.com/data/icons/developer-set-3/128/right-512.png" className='arrow' aria-hidden='true' alt="right arrow"></img>
+          <img src={right} className='arrow right' aria-hidden='true' alt="right arrow"></img>
         </div>
       )
     }

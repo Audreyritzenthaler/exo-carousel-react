@@ -1,23 +1,17 @@
-import image1 from "./imageCourousel/dour2018.jpg"
-import image2 from "./imageCourousel/dour2019.jpg"
-import image4 from "./imageCourousel/mariage.jpg"
+import john from "./imageCourousel/image-john.jpg"
+import tanya from "./imageCourousel/image-tanya.jpg"
 
-
-export default [{
-    title: 'image 1',
-    image: image1,
-    alt: 'jenesaispas',
-},
-{
-    title: 'image 2',
-    image: image2,
-    alt: 'jenesaispas',
-},
-
-{
-    title: 'image 4',
-    image: image4,
-    alt: 'jenesaispas',
-},
-
-];
+export default [
+    {
+        name: 'Tanya Sinclair',
+        job: 'UX Engineer',
+        description: "I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future.",
+        image: tanya
+    },
+    {
+        name: 'John Tarkpor',
+        job: 'Junior Front-end Developer',
+        description: 'If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer.',
+        image: john
+    }
+]

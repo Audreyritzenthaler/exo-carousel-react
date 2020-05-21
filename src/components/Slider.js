@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Slide from './Slide';
 import DataCarousel from './DataCarousel';
-import LeftArrow from './LeftArrow';
-import RightArrow from './RightArrow';
+
+import "./Slider.css"
 
 class Slider extends Component {
     state = {
@@ -23,7 +23,6 @@ class Slider extends Component {
     this.setState({
       activeIndex: index
     });
-    console.log("lol");
   }
   
   goToNextSlide = () => {
@@ -46,17 +45,8 @@ class Slider extends Component {
     return (
       <div className='slider'>
         <div className='slider-items'>
-          <LeftArrow
-            goToPrevSlide={() => this.goToPrevSlide()}
-          />
-        <div className='slider-text'>
-        <h1>Here we are my first carousel !</h1>
-          <Slide
-            activeIndex={this.state.activeIndex}
-          />
-        </div>
-          <RightArrow
-            goToNextSlide={() => this.goToNextSlide()}
+          <Slide className="bg"
+            activeIndex={this.state.activeIndex} goToPrevSlide={this.goToPrevSlide} goToNextSlide={this.goToNextSlide}
           />
         </div>
       </div>

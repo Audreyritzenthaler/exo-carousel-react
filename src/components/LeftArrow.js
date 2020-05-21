@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import left from "./imageCourousel/icon-prev.svg"
 
 
 class LeftArrow extends Component {
     render() {
       return(
-        <div className='backArrow' onClick={this.props.goToPrevSlide}>
-          <img src="https://cdn4.iconfinder.com/data/icons/developer-set-3/128/left-512.png" className='arrow' aria-hidden='true' alt="left arrow"></img>
+        <div onClick={this.props.goToPrevSlide}>
+          <img src={left} className='arrow left' aria-hidden='true' alt="left arrow"></img>
         </div>
       )
     }
